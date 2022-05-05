@@ -1,5 +1,5 @@
 h1 {
-    font-size: 90px;
+    font-size: 10vw ;
     color: white;
     padding: 20px;
     border: 0px;
@@ -65,5 +65,21 @@ li a {
 
 li a:hover {
   background-color: grey;
+}
 
+#landing-text {
+  display: flex;
+  flex: 0 1 40vw;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+@media (min-width: 700px) {
+  .btn {
+    padding: 1rem 3rem;
+  }
 }
